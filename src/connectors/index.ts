@@ -37,9 +37,9 @@ export const walletconnect = new WalletConnectConnector({
   qrcode: true,
   // pollingInterval: POLLING_INTERVAL,
   infuraId: process.env.REACT_APP_INFURA_ID,
-  rpc: { 4: RPC_URLS[4] },
+  rpc: { 44: RPC_URLS[44] },
   chainId: 4,
-  supportedChainIds: [4],
+  supportedChainIds: [44],
 })
 
 // export const walletlink = new WalletLinkConnector({
